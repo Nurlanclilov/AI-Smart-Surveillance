@@ -74,3 +74,11 @@ MIT License
 ## Demo
 
 ![AI Smart Surveillance Demo](screenshots/demo.png)
+
+
+
+Technical Decisions
+
+Individual recordings are automatically stopped when a tracked person is no longer detected.
+
+This design prevents unnecessary video storage and avoids keeping inactive recordings open.
