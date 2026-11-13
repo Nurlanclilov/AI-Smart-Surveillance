@@ -70,3 +70,7 @@ python main.py
 ## License
 
 MIT License
+
+## Demo
+
+![AI Smart Surveillance Demo](demo.png)
