@@ -2,14 +2,7 @@ from ultralytics import YOLO
 import cv2, os, pytesseract, re, shutil
 from datetime import datetime
 
-tesseract_path = shutil.which("tesseract")
-
-if tesseract_path is None:
-    raise FileNotFoundError(
-        "Tesseract OCR not found. Install Tesseract and add it to PATH."
-    )
-
-pytesseract.pytesseract.tesseract_cmd = tesseract_path
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 model = YOLO("yolo11n.pt")
 
