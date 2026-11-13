@@ -73,4 +73,4 @@ MIT License
 
 ## Demo
 
-![AI Smart Surveillance Demo](demo.png)
+![AI Smart Surveillance Demo](screenshots/demo.png)
